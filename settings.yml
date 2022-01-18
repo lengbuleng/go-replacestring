@@ -1,0 +1,10 @@
+settings:
+  parser:
+    # 原始数据存放路径
+    srcpath: "./srcdata/"
+    # 要转换的文件扩展名
+    ext: [".docx",".go"]
+    # 敏感词，多个用英文逗号,隔开
+    keyword: [美西方动向,香港]
+    # 要替换的词，与keyword一一对应，多个用英文逗号,隔开，只填一个表示所有keyword都替换成该值
+    replaceword: ["***"]
